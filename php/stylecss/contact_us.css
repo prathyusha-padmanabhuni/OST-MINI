@@ -1,0 +1,111 @@
+ 
+body{
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.966),rgba(247, 200, 157, 0.952)),url("../images/home1.jpg");
+    margin:0%;
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding:10px;
+     
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+     
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0  0;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:2%;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#f09227;
+    font-weight:bold;
+  }
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(252, 82, 4);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #1d1614;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ee7a0d;
+  }
+  
+  /* Style the container/contact section */
+  .container2 {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left:35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:45%;
+    background-color: #eeb07d;
+    font-size: 28px
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+
+  footer{
+    padding:20px;
+    
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+  }

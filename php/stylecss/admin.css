@@ -1,0 +1,202 @@
+*{
+  
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.966),rgba(247, 200, 157, 0.952)),url("../images/home1.jpg");
+    /* background-size: 300px 100px; */
+    /* background-repeat: no-repeat; */
+    /* height: 100%;
+    width: 100%; */
+  }
+  header{
+    background:#35424a;
+    color:#ffffff;
+    padding:10px;
+     
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+     
+  }
+  header nav ul li a{
+    color:white;
+    width:100px;
+    height:40px;
+    padding:8px;
+    text-align: center;
+    text-decoration: none;
+   }
+  header li{
+    /* float:left; */
+    display:inline;
+    padding: 0 20px 0  0;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:2%;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    background-color: tomato;
+    font-weight:bold;
+    box-shadow: 4px 8px 12px 1px black;
+  }
+     
+    
+    .sidebar{
+      height:50%;
+      width:15%;
+      background: tomato;
+      position: reltaive;
+      line-height: 30pt;
+      margin-top: 15%;
+    }
+    .sidebar ul{
+      list-style: none;
+      /* height: 12.5%; */
+    }
+    .sidebar li a{
+      text-decoration: none;
+      color: black;
+      padding-top:4%;
+      text-align: center;
+      font-size: 22px;
+      display: block;
+      height:70px;
+      box-shadow: 0px 8px 10px black;
+    }
+    .sidebar nav ul li a:hover{
+      background: #35424a;
+      color:white;
+      font-size: 29px;
+    }
+    .sidebar  ul ul{
+      position:absolute;
+      display: none;
+    }
+    .sidebar1 li a{
+      height:30px;
+      width:150px;
+      font-size: 20px;
+      padding-bottom: 10px;
+      box-shadow: 0px 8px 10px black;
+      border:1px solid  #35424a;
+      background-color: rgb(255, 116, 52)
+    }
+    .sidebar1 li a:hover{
+      
+      font-size: 25px;
+  
+    }
+     .sidebar ul li:hover > ul{
+      display:inline-block;
+      position: absolute;
+      left:14.5%;
+      margin-top: -60px;
+      padding: 10px 10px;  
+      height: 10px;
+      text-decoration: none;
+    } 
+    /* .heading{
+      
+      /* background-image: linear-gradient(to bottom, #f4590f, #cc7713, #a98535, #918b5a, #878a7d);
+      background-size: cover; 
+      font-size: 20px;
+      margin-top:-20%;
+  
+    } */
+     
+     .dashboard {
+       
+      text-align: center;
+      font-size: 18px;
+      padding-top: 0%;
+    } 
+    .dashboard h2{
+      background-image: linear-gradient(to bottom, #ddcfcf, #e69941);
+      /* box-shadow: 4px 6px 9px rgb(250, 134, 2); */
+      height: 5vh;
+      width: 15vw;
+      text-align: center;
+      font-size: 22px;
+      margin-top:-25%;
+      margin-left: 45%;
+      font-size: 22px;
+      padding-top: 0.5%;
+      border-radius: 5px;
+       
+    } 
+    .dashboard #dashboard1{
+      background-image: linear-gradient(to bottom, #ddcfcf, #e69941);
+      height: 21vh;
+      width: 15vw;
+      box-shadow: 3px 6px 9px  rgb(248, 139, 14);
+      padding-top: 1%;
+      margin-top:5%;
+      margin-left: 35%;
+      float:left;
+      border-radius: 10px;
+    }
+    .dashboard #dashboard2{
+      float:left;
+      background-image: linear-gradient(to bottom, #ddcfcf, #e69941);
+      height: 21vh;
+      width: 15vw;
+      box-shadow: 3px 6px 9px  rgb(248, 139, 14);
+      margin-top:-11%;
+      margin-left: 60%;
+      border-radius: 10px;
+      padding-top: 1%;
+    }
+    .dashboard #dashboard3{
+      float:left;
+      background-image: linear-gradient(to bottom, #ddcfcf, #e69941);
+      height: 21vh;
+      width: 15vw;
+      box-shadow: 3px 6px 9px  rgb(248, 139, 14);
+      margin-top:5%;
+      margin-left: 35%;
+      border-radius: 10px;
+      padding-top: 1%;
+    }
+    .dashboard #dashboard4{
+      float:left;
+      background-image: linear-gradient(to bottom, #ddcfcf, #e69941);
+      height: 21vh;
+      width: 15vw;
+      box-shadow: 3px 6px 9px  rgb(248, 139, 14);
+      margin-top:-11%;
+      margin-left: 60%;
+      border-radius: 10px;
+      padding-top: 1%;
+      
+    }
+  
+     
+   
+    
+    
+    footer{
+      padding:20px;
+      
+      color:#ffffff;
+      background-color:#e8491d;
+      text-align: center;
+    }
+  

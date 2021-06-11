@@ -1,0 +1,137 @@
+body{
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.966),rgba(247, 200, 157, 0.952)),url("images/home1.jpg");
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding:10px;
+     
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+     
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0  0;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:2%;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#f09227;
+    font-weight:bold;
+  }
+  table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  table tr td{
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* border:3px black solid; */
+     
+  }
+  td{
+    width:20%
+  }
+  .child1 img{
+    width:40%;
+  }
+  input[type=submit] {
+    background-color: #e79c47;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  footer{
+    padding:20px;
+    
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+  }
+.content {
+         font-size: 17px;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+         table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+position: absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+border-collapse:collapse;
+width:100px;
+height:300px;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+}
+
+th{
+padding:10px;
+text-align:center;
+border:1px solid rgba(0,0,0,0.5);
+background-color:#FF9966;}
+#header{
+background-color:#16a085;
+color:#fff;}
+ 
+td{
+padding:10px;
+text-align:center;
+border:1px solid rgba(0,0,0,0.5);
+background-color:#FFCC99;}
+#header{
+background-color:#16a085;
+color:#fff;}
+ 
+.accept {
+background-color: #006600;
+color: #FF9966;
+cursor: pointer;}
+.accept:hover {
+background-color: #00CC00;}
+
+.reject {
+background-color: #990000;
+color: #FF9966;
+cursor: pointer;}
+.reject:hover {
+background-color: #FF0000;}

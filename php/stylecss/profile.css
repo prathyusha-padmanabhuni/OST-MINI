@@ -1,0 +1,146 @@
+ 
+ body{
+	 
+	 
+	padding:0;
+	margin:0; 
+	background:linear-gradient(to bottom, rgba(245, 246, 252, 0.966),rgba(243, 180, 122, 0.952)),
+	url("../images/home1.jpg");
+	 } 
+ header{
+	background:#35424a;
+	color:#ffffff;
+	padding:10px;
+	 
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+	 
+  }
+  
+  header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+  }
+  
+  header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0  0;
+  }
+  
+  header #branding{
+	float:left;
+  }
+  
+  header #branding h1{
+	margin:0;
+  }
+  
+  header nav{
+	float:right;
+	margin-top:2%;
+  }
+  
+  header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+  }
+  
+  header a:hover{
+	color:#f09227;
+	font-weight:bold;
+  } 
+a{
+	box-sizing: border-box;
+	font-size: 20px;
+	/* background-color: black; */
+	color: white;
+	box-shadow: 1px solid #db6934;
+	padding: 2px 8px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+a:hover{
+	box-shadow: #db8d34;
+	color: rgb(235, 229, 229);
+}
+.box{
+	box-sizing: border-box;
+	width: 380px;
+    min-height: 600px;
+	 
+	box-shadow: 5px 5px 10px 5px#b1a595;
+	border-radius: 5px;
+	background-color:rgb(17, 17, 16);
+	margin-top:20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.box img{
+	box-sizing: border-box;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: white;
+}
+.box a:not(:first-of-type){
+	 background-color: black;
+	 box-shadow: 2px 2px 2px 2px rgb(255, 83, 3);
+	 text-align: center;
+	 text-decoration: none;
+	 padding:2%;
+	 margin:2%; 
+}
+.box a:first-of-type:hover{
+	 
+	background-color:  rgb(196, 192, 190);
+	text-align: center;
+	text-decoration: none;
+	padding:2%;
+	margin:2%; 
+}
+.box p{
+	display: block;
+	box-sizing: border-box;
+	background: none;
+	color: white;
+	margin-bottom: 30px;
+	padding: 3px;
+	width: 250px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #e62e00;
+	font-family: 'Roboto' ,sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	border-bottom-right-radius: 20px;
+}
+button{
+	border: 1px solid#db5b34;
+	background-color: black;
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	 
+	margin-top: 50px;
+}
+button:hover{
+	transform: scale(1.1);
+}
+input[type="file"]{
+	display: none;
+}
+footer{
+	padding:20px;
+	
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align: center;
+  } 
+ 
